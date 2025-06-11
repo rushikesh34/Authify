@@ -1,3 +1,3 @@
 export const constansts={
-    BACKEND_URL:"http://localhost:8080/api/v1.0"
+    BACKEND_URL:"robust-illumination-production-fdc0.up.railway.app"
 }
