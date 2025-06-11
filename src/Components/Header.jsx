@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { assets } from '../../../authify/src/assets/assets'
+import { assets } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
 
 
