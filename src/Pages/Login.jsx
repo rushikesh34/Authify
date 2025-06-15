@@ -40,10 +40,11 @@
                 navigate("/");
                 getUserData();
                 
-          }else{}
+          }else{
 
         toast.error("error");
         
+      }
       }
     }catch(err){
       toast.error(err.response.data.message);
