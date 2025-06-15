@@ -34,15 +34,17 @@
       }else{
        
         // login api
-          const response=await axios.post(`${backend_url}/login`,{email,password});
+          const response=await axios.post(`https://authify-server-production.up.railway.app/api/v1.0/login`,{email,password});
           if(response.status==200){
                 setIsloggedIn(true);
                 navigate("/");
                 getUserData();
                 
-          }
-          
+          }else{
+
+        toast.error("error");
         
+      }
       }
     }catch(err){
       toast.error("Something went wrong");
