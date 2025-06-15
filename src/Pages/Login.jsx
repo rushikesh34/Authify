@@ -40,8 +40,9 @@
                 navigate("/");
                 getUserData();
                 
-          }
-          
+          }else{}
+
+        toast.error("error");
         
       }
     }catch(err){
